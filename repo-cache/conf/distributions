@@ -1,0 +1,47 @@
+Origin: Jolicloud
+Label: Jolicloud Robby
+Codename: robby
+Suite: robby
+Architectures: i386 source
+Components: main jolicloud directory
+UDebComponents: main
+Description: Jolicloud APT repository for the Robby version
+SignWith: yes
+
+Origin: Jolicloud
+Label: Jolicloud Robby Test
+Codename: robby-test
+Suite: robby-test
+Architectures: i386 source
+Components: main jolicloud directory
+UDebComponents: main
+Description: Jolicloud APT repository for the Robby (test) version
+SignWith: yes
+
+Origin: Jolicloud
+Label: Jolicloud Robby Development
+Codename: robby-dev
+Suite: robby-dev
+Architectures: i386 source
+Components: main jolicloud directory
+UDebComponents: main
+Description: Jolicloud APT repository for the Robby (development) version
+SignWith: yes
+
+Origin: Jolicloud
+Label: Jolicloud Vincent
+Codename: vincent
+Suite: vincent
+Architectures: i386 source
+Components: main jolicloud directory
+Description: Jolicloud APT repository for the Vincent version
+SignWith: yes
+
+Origin: Jolicloud
+Label: Jolicloud Vincent Test
+Codename: vincent-test
+Suite: vincent-test
+Architectures: i386 source
+Components: main jolicloud directory
+Description: Jolicloud APT repository for the Vincent (test) version
+SignWith: yes

@@ -1,0 +1,24 @@
+Name: robby
+IncomingDir: incoming-robby
+TempDir: /tmp
+Default: robby
+
+Name: robby-test
+IncomingDir: incoming-test-robby
+TempDir: /tmp
+Default: robby-test
+
+Name: robby-dev
+IncomingDir: incoming-dev-robby
+TempDir: /tmp
+Default: robby-dev
+
+Name: vincent
+IncomingDir: incoming-vincent
+TempDir: /tmp
+Default: vincent
+
+Name: vincent-test
+IncomingDir: incoming-test-vincent
+TempDir: /tmp
+Default: vincent-test

@@ -1,0 +1,383 @@
+Package: dkms
+Version: 2.1.0.1-1jolicloud1
+Architecture: all
+Maintainer: Dynamic Kernel Modules Support Team <pkg-dkms-maint@lists.alioth.debian.org>
+Installed-Size: 380
+Depends: module-init-tools, gcc, make | build-essential | dpkg-dev
+Recommends: patch, fakeroot, lsb-release, menu | sudo, linux-headers-jolicloud | linux-headers, linux-image
+Homepage: http://linux.dell.com/dkms
+Priority: optional
+Section: kernel
+Filename: pool/main/d/dkms/dkms_2.1.0.1-1jolicloud1_all.deb
+Size: 62450
+SHA256: 7b517e04f4ae119b2f53487561f95e83f6ff4a8c12553a2c23b1b0be97f4fa3c
+SHA1: 80ccc09756e935c9e6ad40cc289be63ffb77bb14
+MD5sum: c7da403bf55876cae127b011823ab7cc
+Description: Dynamic Kernel Module Support Framework
+ DKMS is a framework designed to allow individual kernel modules to be upgraded
+ without changing the whole kernel. It is also very easy to rebuild modules as
+ you upgrade kernels.
+
+Package: fakeroot
+Version: 1.12.1ubuntu1
+Architecture: i386
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 444
+Depends: libc6 (>= 2.4)
+Priority: optional
+Section: utils
+Filename: pool/main/f/fakeroot/fakeroot_1.12.1ubuntu1_i386.deb
+Size: 115244
+SHA256: 165142ae566482c09e519702ecb493a4dec5567be5c1ae7fdb3a4c6fd82d467f
+SHA1: adfba89b862de42a724e2f203fd958cff16d742e
+MD5sum: bfa56fba427a16aef297e198af04317e
+Description: Gives a fake root environment
+ This package is intended to enable something like:
+   dpkg-buildpackage -rfakeroot
+ i.e. to remove the need to become root for a package build.
+ This is done by setting LD_PRELOAD to libfakeroot.so,
+ which provides wrappers around getuid, chown, chmod, mknod,
+ stat, and so on, thereby creating a fake root environment.
+ .
+ fakeroot requires SYSV IPC or TCP to operate.
+Original-Maintainer: Clint Adams <schizo@debian.org>
+
+Package: linux-headers-2.6.32-1-jolicloud
+Source: linux
+Version: 2.6.32-1.3
+Architecture: i386
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Installed-Size: 7912
+Depends: coreutils | fileutils (>= 4.0), linux-headers-2.6.32-1, libc6 (>= 2.8), libncurses5 (>= 5.6+20071006-3)
+Provides: linux-headers, linux-headers-2.6, psb-kernel-headers
+Priority: optional
+Section: devel
+Filename: pool/main/l/linux/linux-headers-2.6.32-1-jolicloud_2.6.32-1.3_i386.deb
+Size: 918304
+SHA256: 83c9958cbc80e1b537f81deb2e3427c52d0b078980dbc06c311b62e6568b4e91
+SHA1: 44094594b6e29ad1a272083808f1f3321ef8a44e
+MD5sum: 9438a6b268bec2b31bd60781ba320df9
+Description: Linux kernel headers for version 2.6.32 on x86-based netbooks
+ This package provides kernel header files for version 2.6.32 on
+ x86-based netbooks.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-headers-2.6.32-1/debian.README.gz for details.
+
+Package: linux-headers-2.6.32-1-jolicloud-atom
+Source: linux
+Version: 2.6.32-1.3
+Architecture: i386
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Installed-Size: 7544
+Depends: coreutils | fileutils (>= 4.0), linux-headers-2.6.32-1, libc6 (>= 2.8), libncurses5 (>= 5.6+20071006-3)
+Provides: linux-headers, linux-headers-2.6, psb-kernel-headers
+Priority: optional
+Section: devel
+Filename: pool/main/l/linux/linux-headers-2.6.32-1-jolicloud-atom_2.6.32-1.3_i386.deb
+Size: 901398
+SHA256: bf2f57ec0c428eb03953459a2b9153c765c04e91838b497e41dba6a0c166edc4
+SHA1: 3dd18fd9c31af6ecfb6a33e99ba3b2edde2222a5
+MD5sum: c3b340ee9f6b27195cd16278c8973f7c
+Description: Linux kernel headers for version 2.6.32 on Intel Atom processors
+ This package provides kernel header files for version 2.6.32 on
+ Intel Atom processors.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-headers-2.6.32-1/debian.README.gz for details.
+
+Package: linux-headers-2.6.32-4-jolicloud
+Source: linux
+Version: 2.6.32-4.9
+Architecture: i386
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Installed-Size: 7960
+Depends: coreutils | fileutils (>= 4.0), linux-headers-2.6.32-4, libc6 (>= 2.8), libncurses5 (>= 5.6+20071006-3)
+Provides: linux-headers, linux-headers-2.6, psb-kernel-headers
+Priority: optional
+Section: devel
+Filename: pool/main/l/linux/linux-headers-2.6.32-4-jolicloud_2.6.32-4.9_i386.deb
+Size: 941376
+SHA256: 169ea869b4afd7e3a5cd08bad802c0d6ab69dd1b863c2c18edc0b615b1337ffe
+SHA1: bc39c90d0f41e14368bd03ff9e0f0abd5ae6913b
+MD5sum: c76b0b9d4f2dd4b943f98833998f6290
+Description: Linux kernel headers for version 2.6.32 on x86-based netbooks
+ This package provides kernel header files for version 2.6.32 on
+ x86-based netbooks.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-headers-2.6.32-4/debian.README.gz for details.
+
+Package: linux-headers-2.6.32-4-jolicloud-atom
+Source: linux
+Version: 2.6.32-4.9
+Architecture: i386
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Installed-Size: 7584
+Depends: coreutils | fileutils (>= 4.0), linux-headers-2.6.32-4, libc6 (>= 2.8), libncurses5 (>= 5.6+20071006-3)
+Provides: linux-headers, linux-headers-2.6, psb-kernel-headers
+Priority: optional
+Section: devel
+Filename: pool/main/l/linux/linux-headers-2.6.32-4-jolicloud-atom_2.6.32-4.9_i386.deb
+Size: 919708
+SHA256: 5658dc81c2fb710bf355f0dc2798df8b94d7cc3abc7e9ca75db26f2f32eddb9d
+SHA1: 3f4cddad089ed62f1340701f3576d37042a51072
+MD5sum: 706a9cd3958b0af5372da6e3a11cc3f0
+Description: Linux kernel headers for version 2.6.32 on Intel Atom processors
+ This package provides kernel header files for version 2.6.32 on
+ Intel Atom processors.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-headers-2.6.32-4/debian.README.gz for details.
+
+Package: linux-headers-jolicloud
+Source: linux-meta
+Version: 2.6.32.4.4
+Architecture: i386
+Maintainer: Adam McDaniel <adam@jolicloud.org>
+Installed-Size: 32
+Depends: linux-headers-2.6.32-4-jolicloud
+Provides: linux-headers-generic
+Priority: optional
+Section: devel
+Filename: pool/main/l/linux-meta/linux-headers-jolicloud_2.6.32.4.4_i386.deb
+Size: 3986
+SHA256: f730192afa26db55f9f86488b520afefa47847d69727165e5b9525f8b680cf53
+SHA1: 2b66f6aca18a1915fb7fa6d4732f1510ece94b37
+MD5sum: 4da6cd465d30317b22220d8cacc89eba
+Description: jolicloud Linux kernel headers
+ This package will always depend on the latest jolicloud kernel headers
+ available.
+
+Package: linux-headers-jolicloud-atom
+Source: linux-meta
+Version: 2.6.32.4.4
+Architecture: i386
+Maintainer: Adam McDaniel <adam@jolicloud.org>
+Installed-Size: 32
+Depends: linux-headers-2.6.32-4-jolicloud-atom
+Provides: linux-headers-generic, linux-headers-jolicloud
+Priority: optional
+Section: devel
+Filename: pool/main/l/linux-meta/linux-headers-jolicloud-atom_2.6.32.4.4_i386.deb
+Size: 3998
+SHA256: c35b8acc7b28ed7790e58e00c0394eea592f70d292d1ce144074218013872fd5
+SHA1: 1f4ee1ae84c3c78ecf28c7dde14171b35056bd5f
+MD5sum: 5fd0524000e048bd4b009b7adbdf83a2
+Description: jolicloud Linux kernel headers
+ This package will always depend on the latest jolicloud kernel headers
+ available.
+
+Package: make
+Source: make-dfsg
+Version: 3.81-5
+Architecture: i386
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Manoj Srivastava <srivasta@debian.org>
+Installed-Size: 1208
+Depends: libc6 (>= 2.4)
+Suggests: make-doc
+Priority: standard
+Section: devel
+Filename: pool/main/m/make-dfsg/make_3.81-5_i386.deb
+Size: 156002
+SHA256: c4e6d7212d7e90db23532d55557d4ac9c991bbe64403353e04cc20ed8df514c3
+SHA1: dcce6b01335296647cfbb343cc239aab27992f18
+MD5sum: 31d3cd20ab0c4c2a597602d07af5e519
+Description: The GNU version of the "make" utility.
+ GNU Make is a program that determines which pieces of a large
+ program need to be recompiled and issues the commands to recompile
+ them, when necessary. More information about GNU Make can be found in
+ the `make' Info page. The upstream sources for this package are
+ available at the location ftp://ftp.gnu.org/gnu/make/. The
+ documentation for this package does not meet the Debian Free Software
+ Guidelines, and has been removed from this package.
+
+Package: nvidia-185-kernel-source
+Source: nvidia-graphics-drivers-180
+Version: 185.18.36-1jolicloud0
+Architecture: i386
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 31152
+Depends: make, sed (>> 3.0), dkms, linux-libc-dev, libc6-dev, linux-headers-jolicloud | linux-headers, patch
+Recommends: nvidia-glx-185 (>= 185.18.36)
+Conflicts: nvidia-kernel-source
+Replaces: nvidia-173-kernel-source, nvidia-177-kernel-source, nvidia-180-kernel-source, nvidia-185-kernel-source, nvidia-71-kernel-source, nvidia-96-kernel-source, nvidia-kernel-source, nvidia-kernel-src
+Provides: nvidia-kernel-source
+Priority: optional
+Section: restricted/misc
+Filename: pool/main/n/nvidia-graphics-drivers-180/nvidia-185-kernel-source_185.18.36-1jolicloud0_i386.deb
+Size: 11848544
+SHA256: d0e9776048d1eec1ecc4e8022c64ae5e565d8ea9b2f4c9d42d69036895f790e1
+SHA1: 38de56653ee36e01d295db8741ea925c2d327f92
+MD5sum: 637fb0214b5f18b4e3cfd464585338c9
+Description: NVIDIA binary kernel module source
+ This package builds the NVIDIA Xorg  binary kernel module
+ needed  by nvidia-glx. The drivers provide optimized hardware acceleration
+ of OpenGL applications via a direct-rendering X Server AGP,
+ PCIe, SLI, TV-out, and flat panel displays are also supported.
+ .
+ PLEASE read /usr/share/doc/nvidia-kernel-source/README.Debian for building
+ information.
+ .
+Original-Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+
+Package: nvidia-185-libvdpau
+Source: nvidia-graphics-drivers-180
+Version: 185.18.36-1jolicloud0
+Architecture: i386
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 1520
+Replaces: nvidia-180-libvdpau, nvidia-glx-177, nvidia-glx-180 (<= 180.22)
+Provides: nvidia-libvdpau
+Priority: optional
+Section: restricted/misc
+Filename: pool/main/n/nvidia-graphics-drivers-180/nvidia-185-libvdpau_185.18.36-1jolicloud0_i386.deb
+Size: 764392
+SHA256: 331939088b84adb83c0cdd59cff013dc3cbd5dbb5ccdd0b4478495ddc516606e
+SHA1: 82a46f7813ba89d9aa4f87858963bdbd6ee3e1c3
+MD5sum: 22a935db28937194de6344511adaab41
+Description: Video Decode and Presentation API for Unix
+ This library provides NVIDIA's implementation of the Video Decode
+ and presentation API.  It provides acceleration for NVIDIA 7 and later
+ series cards for h264 video.
+Original-Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+
+Package: nvidia-glx-185
+Source: nvidia-graphics-drivers-180
+Version: 185.18.36-1jolicloud0
+Architecture: i386
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 26536
+Depends: nvidia-185-kernel-source (>= 185.18.36), nvidia-185-libvdpau (>= 185.18.36), x11-common (>= 1:7.0.0), libc6 (>= 2.3.6-6~), libgcc1 (>= 1:4.1.1), libgl1-mesa | libgl1, libx11-6, libxext6, zlib1g (>= 1:1.1.4)
+Recommends: nvidia-settings
+Conflicts: nvidia-glx, xorg-driver-fglrx
+Replaces: nvidia-glx-173, nvidia-glx-177, nvidia-glx-180, nvidia-glx-71, nvidia-glx-96
+Provides: nvidia-glx, xserver-xorg-video-5
+Priority: optional
+Section: restricted/misc
+Filename: pool/main/n/nvidia-graphics-drivers-180/nvidia-glx-185_185.18.36-1jolicloud0_i386.deb
+Size: 8984732
+SHA256: 7b236d1cee541ac6c6a3d2b00d268f3ebeb6dc3c7b920e2afc6899db3fdd2551
+SHA1: c342f5fe1e1b5e206389b850ecb49eb9f8d4180b
+MD5sum: 47ca6d1f903ba110feb43e96b5c2ee72
+Description: NVIDIA binary Xorg driver
+ These binary drivers provide optimized hardware
+ acceleration of  OpenGL applications via a direct-rendering X Server.
+ AGP, PCIe, SLI, TV-out and flat panel displays are also supported.
+ .
+ Please see the nvidia-185-kernel-source package for building the kernel module
+ required by this package. This will provide nvidia-kernel-<version>
+ .
+ The following GPUs are supported:
+ GeForce 6800 Ultra, GeForce 6800, GeForce 6800 LE, GeForce
+ 6800 XE, GeForce 6800 XT, GeForce 6800 GT, GeForce 6800 GT,
+ GeForce 6800 GS, GeForce 6800 XT, GeForce 7800 GTX, GeForce
+ 7800 GTX, GeForce 7800 GT, GeForce 7800 GS, GeForce 7800 SLI
+ , GeForce Go 7800, GeForce Go 7800 GTX, GeForce 6800 GS, GeF
+ orce 6800, GeForce 6800 LE, GeForce 6800 XT, GeForce Go 6800
+ , GeForce Go 6800 Ultra, GeForce 6800, GeForce 6600 GT, GeFo
+ rce 6600, GeForce 6200, GeForce 6600 LE, GeForce 7800 GS, Ge
+ Force 6800 GS, GeForce 6800 Ultra, GeForce 6600 GT, GeForce
+ 6600, GeForce 6600 LE, GeForce 6600 VE, GeForce Go 6600, GeF
+ orce 6610 XL, GeForce Go 6600 TE/6200 TE, GeForce 6700 XL, G
+ eForce Go 6600, GeForce Go 6600 GT, GeForce 6200, GeForce 65
+ 00, GeForce 6200 TurboCache(TM), GeForce 6200SE TurboCache(T
+ M), GeForce 6200 LE, GeForce Go 6200, GeForce Go 6400, GeFor
+ ce Go 6200, GeForce Go 6400, GeForce 6250, GeForce 7100 GS,
+ GeForce 8800 GTX, GeForce 8800 GTS, GeForce 8800 Ultra, Tesl
+ a C870, GeForce 7350 LE, GeForce 7300 LE, GeForce 7300 SE/72
+ 00 GS, GeForce Go 7200, GeForce Go 7300, GeForce Go 7400, Ge
+ Force 7500 LE, GeForce 7300 GS, GeForce 6800, GeForce 6800 L
+ E, GeForce 6800 GT, GeForce 6800 XT, GeForce 6200, GeForce 6
+ 200 A-LE, GeForce 6150, GeForce 6150 LE, GeForce 6100, GeFor
+ ce Go 6150, GeForce Go 6100, GeForce 7900 GTX, GeForce 7900
+ GT/GTO, GeForce 7900 GS, GeForce 7950 GX2, GeForce 7950 GX2,
+  GeForce 7950 GT, GeForce Go 7950 GTX, GeForce Go 7900 GS, G
+ eForce Go 7900 GTX, GeForce 7600 GT, GeForce 7600 GS, GeForc
+ e 7900 GS, GeForce 7950 GT, GeForce 7650 GS, GeForce 7600 GT
+ , GeForce 7600 GS, GeForce 7300 GT, GeForce 7600 LE, GeForce
+  7300 GT, GeForce Go 7600, GeForce Go 7600 GT, GeForce 6150S
+ E nForce 430, GeForce 6100 nForce 405, GeForce 6100 nForce 4
+ 00, GeForce 6100 nForce 420, GeForce 8600 GTS, GeForce 8600
+ GT, GeForce 8600 GT, GeForce 8400 GS, GeForce 9500M GS, GeFo
+ rce 8600M GT, GeForce 8700M GT, GeForce 8400 SE, GeForce 850
+ 0 GT, GeForce 8400 GS, GeForce 8300 GS, GeForce 8400 GS, GeF
+ orce 8600M GS, GeForce 8400M GT, GeForce 8400M GS, GeForce 8
+ 400M G, GeForce 9400 GT, GeForce 7150M / nForce 630M, GeForc
+ e 7000M / nForce 610M, GeForce 7050 PV / NVIDIA nForce 630a,
+  GeForce 7050 PV / NVIDIA nForce 630a, GeForce 7025 / NVIDIA
+  nForce 630a, GeForce GTX 280, GeForce GTX 260, GeForce 8800
+  GTS 512, GeForce 8800 GT, GeForce 9800 GX2, GeForce 8800 GS
+ , GeForce 8800M GTS, GeForce 8800M GTX, GeForce 8800 GS, GeF
+ orce 9600 GSO, GeForce 8800 GT, GeForce 9800 GTX, GeForce 96
+ 00 GT, GeForce 9600 GS, GeForce 9800M GTS, GeForce 9800M GTS
+ , GeForce 9600M GT, GeForce 9600M GS, GeForce 9500M G, GeFor
+ ce 9300 GS, GeForce 8400 GS, GeForce 9300M GS, GeForce 7150
+ / NVIDIA nForce 630i, GeForce 7100 / NVIDIA nForce 630i, GeF
+ orce 7050 / NVIDIA nForce 610i, GeForce 8300, GeForce 8200,
+ nForce 730a, GeForce 8200, GeForce 8100 / nForce 720a, Quadr
+ o FX 4000, Quadro FX 4500, Quadro FX Go1400, Quadro FX 3450/
+ 4000 SDI, Quadro FX 1400, Quadro FX 4400/Quadro FX 3400, Qua
+ dro NVS 440, Quadro FX 540M, Quadro FX 550, Quadro FX 540, Q
+ uadro NVS 285, Quadro FX 5600, Quadro FX 4600, Quadro NVS 11
+ 0M, Quadro NVS 110M, Quadro NVS 120M, Quadro FX 350M, Quadro
+  FX 350, Quadro NVS 210S / NVIDIA GeForce 6150LE, Quadro FX
+ 2500M, Quadro FX 1500M, Quadro FX 5500, Quadro FX 3500, Quad
+ ro FX 1500, Quadro FX 4500 X2, Quadro FX 560, Quadro FX 370,
+  Quadro NVS 320M, Quadro FX 570M, Quadro FX 1600M, Quadro FX
+  570, Quadro FX 1700, Quadro NVS 140M, Quadro NVS 130M, Quad
+ ro NVS 135M, Quadro FX 360M, Quadro NVS 290, Quadro FX 3700,
+  Quadro FX 3600M
+ .
+ See /usr/share/doc/nvidia-glx/README.txt.gz for a complete list
+ of supported GPUs and PCIIDs
+ .
+Original-Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+
+Package: nvidia-settings
+Version: 180.25-0ubuntu1
+Architecture: i386
+Maintainer: Ubuntu MOTU Developers <ubuntu-motu@lists.ubuntu.com>
+Installed-Size: 1888
+Depends: libatk1.0-0 (>= 1.20.0), libc6 (>= 2.4), libcairo2 (>= 1.2.4), libfontconfig1 (>= 2.4.0), libfreetype6 (>= 2.3.5), libglib2.0-0 (>= 2.16.0), libgtk2.0-0 (>= 2.15.0), libpango1.0-0 (>= 1.22.0), libx11-6, libxext6, zlib1g (>= 1:1.1.4)
+Conflicts: libxnvctrl-dev
+Replaces: libxnvctrl-dev
+Priority: optional
+Section: contrib/x11
+Filename: pool/main/n/nvidia-settings/nvidia-settings_180.25-0ubuntu1_i386.deb
+Size: 771986
+SHA256: 6cb5f59c71531c1a3b52e198917a0aa8607efbd1447932b96d13b7ff6710026e
+SHA1: fa5d4aa6d437d14535cbdc1aa8bd7022953b57c7
+MD5sum: acab1c19db929cec6981f0ad3b8bebda
+Description: Tool of configuring the NVIDIA graphics driver
+ The nvidia-settings utility is a tool for configuring the NVIDIA
+ Linux graphics driver.  It operates by communicating with the NVIDIA
+ X driver, querying and updating state as appropriate.  This
+ communication is done with the NV-CONTROL X extension.
+ .
+ Values such as brightness and gamma, XVideo attributes, temperature,
+ and OpenGL settings can be queried and configured via nvidia-settings.
+Original-Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+
+Package: patch
+Version: 2.5.9-5
+Architecture: i386
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Christoph Berg <myon@debian.org>
+Installed-Size: 208
+Depends: libc6 (>= 2.4)
+Suggests: diff-doc, ed
+Priority: standard
+Section: utils
+Filename: pool/main/p/patch/patch_2.5.9-5_i386.deb
+Size: 100040
+SHA256: c425720428bbd75682b62f31bbb5fb67b9ef258054fc56406dc991f09c059edb
+SHA1: 3c3e5337b7be199978f297e33df79673717e234a
+MD5sum: b3d1fec95d04d924a08886e601bd1d46
+Description: Apply a diff file to an original
+ Patch will take a patch file containing any of the four forms
+ of difference listing produced by the diff program and apply
+ those differences to an original file, producing a patched
+ version.
+
