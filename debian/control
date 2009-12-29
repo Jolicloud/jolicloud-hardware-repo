@@ -5,6 +5,12 @@ Maintainer: Adam McDaniel <adam@jolicloudorg>
 Build-Depends: debhelper (>= 5)
 Standards-Version: 3.7.2
 
+Package: jolicloud-hardware
+Depends: dkms, jolicloud-hardware-repo
+Architecture: all
+Description: Test package for jolicloud-hardware
+ Test package for jolicloud-hardware
+
 Package: jolicloud-hardware-repo
 Architecture: i386
 Description: Test package for jolicloud-hardware-repo
