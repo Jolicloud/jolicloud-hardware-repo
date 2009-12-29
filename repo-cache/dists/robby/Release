@@ -2,7 +2,7 @@ Origin: Jolicloud
 Label: Jolicloud Robby
 Suite: robby
 Codename: robby
-Date: Tue, 29 Dec 2009 19:46:22 UTC
+Date: Tue, 29 Dec 2009 20:09:25 UTC
 Architectures: i386
 Components: main jolicloud directory
 Description: Jolicloud APT repository for the Robby version
