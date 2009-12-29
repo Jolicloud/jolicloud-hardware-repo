@@ -2,13 +2,13 @@ Origin: Jolicloud
 Label: Jolicloud Robby
 Suite: robby
 Codename: robby
-Date: Tue, 29 Dec 2009 20:09:25 UTC
+Date: Tue, 29 Dec 2009 20:22:41 UTC
 Architectures: i386
 Components: main jolicloud directory
 Description: Jolicloud APT repository for the Robby version
 MD5Sum:
- 3e20fdbacdd94b40cdca6b877f6ed43c 17566 main/binary-i386/Packages
- 865f103facc614dae082ebbebb0485f5 5287 main/binary-i386/Packages.gz
+ 46925d5601a8e61811461231ea0abcb7 19142 main/binary-i386/Packages
+ ca964961de6dac278476262cde78c63b 5584 main/binary-i386/Packages.gz
  e4d45a64005a3eb8c6f446ec5ed421df 151 main/binary-i386/Release
  d41d8cd98f00b204e9800998ecf8427e 0 main/debian-installer/binary-i386/Packages
  7029066c27ac6f5ef18d660d5741979a 20 main/debian-installer/binary-i386/Packages.gz
@@ -28,8 +28,8 @@ MD5Sum:
  7029066c27ac6f5ef18d660d5741979a 20 directory/source/Sources.gz
  8d2103934bfa9d77183f5fc88f58ca13 158 directory/source/Release
 SHA1:
- e400fff83b1635d51924281366f05dff371114d7 17566 main/binary-i386/Packages
- caeb5ccc5eab21164e48eb0bb44491dc942448c5 5287 main/binary-i386/Packages.gz
+ 5ae49785fac712182f324562555ae82ccad022a3 19142 main/binary-i386/Packages
+ b2ef2189a0c4ab17397576cc1d54f0b836bd5122 5584 main/binary-i386/Packages.gz
  6a6cc2a498f571d5bddb759fc8ff4aa91809e246 151 main/binary-i386/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/debian-installer/binary-i386/Packages
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/debian-installer/binary-i386/Packages.gz
@@ -49,8 +49,8 @@ SHA1:
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 directory/source/Sources.gz
  391dfd30e472daa9796f2a34a37b048ab22caeea 158 directory/source/Release
 SHA256:
- 4b008998680abccef04311658b51113be6e1d4b41b0e52e6bb3dbd35d5285cbe 17566 main/binary-i386/Packages
- 9a736f2fd712c0700d7df460562998fe728d4ebee2f9eb5b571eb17b50fdc2fe 5287 main/binary-i386/Packages.gz
+ d478de29446bd7898042778f87036cb76da2ad8064319babdc28cc9aa84a0e0f 19142 main/binary-i386/Packages
+ 6cf6c14d9b02d3ce91a884f3e6d99c1c6771e7894e89c6c401c60213f51a4128 5584 main/binary-i386/Packages.gz
  1c9c0ac7ed6509fbe824bbaf2161a080299f785a4a958d5ed10aed7587ca3fe8 151 main/binary-i386/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/debian-installer/binary-i386/Packages
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/debian-installer/binary-i386/Packages.gz
