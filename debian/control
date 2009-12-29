@@ -1,0 +1,11 @@
+Source: jolicloud-hardware
+Section: misc
+Priority: standard
+Maintainer: Adam McDaniel <adam@jolicloudorg>
+Build-Depends: debhelper (>= 5)
+Standards-Version: 3.7.2
+
+Package: jolicloud-hardware-repo
+Architecture: i386
+Description: Test package for jolicloud-hardware-repo
+ Test package for jolicloud-hardware-repo
