@@ -6,7 +6,8 @@ Build-Depends: debhelper (>= 5)
 Standards-Version: 3.7.2
 
 Package: jolicloud-hardware
-Depends: dkms, jolicloud-hardware-repo
+Pre-Depends: dkms, linux-headers-jolicloud | linux-headers, jolicloud-hardware-repo
+Depends: nvidia-common
 Architecture: all
 Description: Test package for jolicloud-hardware
  Test package for jolicloud-hardware
