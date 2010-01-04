@@ -1,2 +1,1 @@
-repo-cache/dists /var/lib/jolicloud-hardware/repo-cache
-repo-cache/pool /var/lib/jolicloud-hardware/repo-cache
+repo-cache /var/lib/jolicloud-hardware/repo-cache

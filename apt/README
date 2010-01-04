@@ -1,8 +1,0 @@
-This "apt" directory will be symlinked from /etc/apt only when
-jolicloud-hardware is actually running. The purpose being is that special
-packages that need to be installed during boot-up can do so, because a
-local repo cache is available.
-
-If you literally see this README under /etc/apt and jolicloud-hardware is
-not currently running, something seriously went wrong. Restore /etc/apt
-from /etc/apt-orig.
