@@ -1,3 +1,0 @@
-#!/bin/sh
-
-GNUPGHOME=.gnupg /usr/bin/reprepro $@
