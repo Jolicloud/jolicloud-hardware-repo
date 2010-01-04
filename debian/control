@@ -1,7 +1,7 @@
 Source: jolicloud-hardware
 Section: misc
 Priority: standard
-Maintainer: Adam McDaniel <adam@jolicloudorg>
+Maintainer: Adam McDaniel <adam@jolicloud.org>
 Build-Depends: debhelper (>= 5)
 Standards-Version: 3.7.2
 
