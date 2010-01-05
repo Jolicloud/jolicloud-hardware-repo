@@ -1,3 +1,9 @@
+jolicloud-hardware-repo (0.2.0) robby-test; urgency=low
+
+  * Imported poulsbo modules into repo-cache
+
+ -- Adam McDaniel <adam@jolicloud.org>  Tue, 05 Jan 2010 21:54:35 +0100
+
 jolicloud-hardware-repo (0.1.0) robby-dev; urgency=low
 
   * Removed jolicloud-hardware content
