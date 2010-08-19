@@ -1,3 +1,10 @@
+jolicloud-hardware-repo (0.2.0) robby; urgency=low
+
+  * Imported poulsbo modules into repo-cache
+  * Upgraded NVidia packages to 195.36.24, removed 185.18.36
+
+ -- Adam McDaniel <adam@jolicloud.org>  Wed, 18 Aug 2010 23:08:17 -0600
+
 jolicloud-hardware-repo (0.1.0) robby-dev; urgency=low
 
   * Removed jolicloud-hardware content
