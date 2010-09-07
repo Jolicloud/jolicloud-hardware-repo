@@ -1,3 +1,16 @@
+jolicloud-hardware-repo (1.1.0~1.git.20100907t003038.2dac2c7) robby-lucid; urgency=low
+
+  ** SNAPSHOT build @2dac2c71622a610ac142509cc158a5ab22e2dfb9 **
+
+  * Upgraded NVidia packages to 195.36.24-0ubuntu1~10.04 (lucid build)
+  * Updated poulsbo packages from Lucid PPA source
+  * Bumped revision number to coincide with Jolicloud V1.1
+  * Updated psb/jolicloud-pouslbo to reference upstream pouslbo-config
+  * Set source format to "3.0 (git)"
+  * Fixed jolicloud-pouslbo snapshot
+
+ -- Adam McDaniel <adam@jolicloud.org>  Mon, 06 Sep 2010 18:30:38 -0600
+
 jolicloud-hardware-repo (0.2.0) robby; urgency=low
 
   * Imported poulsbo modules into repo-cache
