@@ -1,3 +1,10 @@
+jolicloud-hardware-repo (1.1.0~2) robby-lucid; urgency=low
+
+  * Removed depricated nvidia packages
+  * Upgraded nvidia packages to 195.36.24-1jolicloud1+l0u1~10.04
+
+ -- Adam McDaniel <adam@jolicloud.org>  Sat, 09 Oct 2010 19:22:10 -0600
+
 jolicloud-hardware-repo (1.1.0~1.git.20100907t003038.2dac2c7) robby-lucid; urgency=low
 
   ** SNAPSHOT build @2dac2c71622a610ac142509cc158a5ab22e2dfb9 **
