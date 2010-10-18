@@ -1,3 +1,14 @@
+jolicloud-hardware-repo (1.1.0~3) robby-lucid; urgency=low
+
+  * Set source format to "3.0 (native)"
+  * Removed psb-kernel-source: driver now provided by the kernel, and
+    other redundant meta-packages
+  * Added autotools-dev, libtool to satisfy xserver-xorg-video-psb
+    dependency
+  * Upgraded jolicloud-poulsbo to 1.1.0~2.git.20101018t212808.b9e9e7e
+
+ -- Adam McDaniel <adam@jolicloud.org>  Mon, 18 Oct 2010 15:30:06 -0600
+
 jolicloud-hardware-repo (1.1.0~2) robby-lucid; urgency=low
 
   * Removed depricated nvidia packages
