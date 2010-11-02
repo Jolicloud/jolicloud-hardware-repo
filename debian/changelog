@@ -1,3 +1,9 @@
+jolicloud-hardware-repo (1.1.0) robby-lucid; urgency=low
+
+  * Upgraded nvidia-current to 260.19.12-1jolicloud1
+
+ -- Adam McDaniel <adam@jolicloud.org>  Mon, 01 Nov 2010 18:59:53 -0600
+
 jolicloud-hardware-repo (1.1.0~3) robby-lucid; urgency=low
 
   * Set source format to "3.0 (native)"
