@@ -1,3 +1,9 @@
+jolicloud-hardware-repo (1.1.1~1) robby-lucid; urgency=low
+
+  * Add VboxGuestAdditions installer
+
+ -- Andrew Stormont <andy@jolicloud.org>  Mon, 08 Nov 2010 12:55:03 +0100
+
 jolicloud-hardware-repo (1.1.0) robby-lucid; urgency=low
 
   * Upgraded nvidia-current to 260.19.12-1jolicloud1
