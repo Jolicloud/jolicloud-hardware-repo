@@ -1,3 +1,13 @@
+jolicloud-hardware-repo (1.1.2~2) robby-lucid; urgency=low
+
+  * Added missing virtualbox-ose-guest-dkms (3.1.6-dfsg-2ubuntu2) to
+    vboxguest
+  * Upgraded virtualbox-ose-guest-dkms to 3.2.8-dfsg-2ubuntu1; removed
+    depricated virtualbox-ose-dkms
+  * Updated package description, now classified as restricted
+
+ -- Adam McDaniel <adam@jolicloud.org>  Sat, 13 Nov 2010 02:17:21 +0100
+
 jolicloud-hardware-repo (1.1.2~1) robby-lucid; urgency=low
 
   * Upgraded jolicloud-poulsbo to 1.1.0
