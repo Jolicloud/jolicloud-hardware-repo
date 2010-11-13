@@ -1,5 +1,5 @@
 Source: jolicloud-hardware-repo
-Section: misc
+Section: restricted/misc
 Priority: standard
 Maintainer: Adam McDaniel <adam@jolicloud.org>
 Build-Depends: debhelper (>= 5)
@@ -7,5 +7,19 @@ Standards-Version: 3.7.2
 
 Package: jolicloud-hardware-repo
 Architecture: i386
-Description: Test package for jolicloud-hardware-repo
- Test package for jolicloud-hardware-repo
+Description: Jolicloud-hardware package repository
+ The jolicloud-hardware-repo is a collection of DEB packages that are
+ shipped in compiled form onto machines so that they are available on a
+ machine when it first boots up. When jolicloud-hardware detects its
+ running on hardware that requires special support, it automatically
+ installs one or more packages from this repository prior to X starting up.
+ .
+ All packages within are not compatible with the general installation ISO
+ or standard meta-packages, and as such cannot be installed en masse. For
+ example, installing a gma500 libdrm ontoa non-gma500 device will produce
+ nothing bit drm failures.
+ .
+ Current hardware supported by jolicloud-hardware-repo includes:
+ - GMA500 (aka poulsbo) video cards
+ - Nvidia (ION, GeForce, etc) video cards
+ - Virtualbox-guest installations
