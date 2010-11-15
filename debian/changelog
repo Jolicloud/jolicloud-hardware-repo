@@ -1,3 +1,10 @@
+jolicloud-hardware-repo (1.1.2~3) robby-lucid; urgency=low
+
+  * Downgraded virtualbox-ose-guest-dkms to 3.1.6-dfsg-3jolicloud1 
+    (Stay in-line with other vboxguest packages)
+
+ -- Adam McDaniel <adam@jolicloud.org>  Mon, 15 Nov 2010 13:01:02 +0100
+
 jolicloud-hardware-repo (1.1.2~2) robby-lucid; urgency=low
 
   * Added missing virtualbox-ose-guest-dkms (3.1.6-dfsg-2ubuntu2) to
