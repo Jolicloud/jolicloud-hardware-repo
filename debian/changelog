@@ -1,3 +1,11 @@
+jolicloud-hardware-repo (1.1.4~2) robby-lucid; urgency=low
+
+  * Updated psb/uswsusp to 0.8-1.3jolicloud2+2m1
+    - Silently bypass the system-check for swap-space... can fail if
+      uswsusp is installed prior to swap-space coming online.
+
+ -- Adam McDaniel <adam@jolicloud.org>  Fri, 03 Dec 2010 03:03:32 -0700
+
 jolicloud-hardware-repo (1.1.4~1) robby-lucid; urgency=low
 
   * Upgraded uswsusp to 0.8-1.3jolicloud1+2m2:
