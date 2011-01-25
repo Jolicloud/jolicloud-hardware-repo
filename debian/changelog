@@ -1,3 +1,13 @@
+jolicloud-hardware-repo (1.2.0) robby-1.2; urgency=low
+
+  * Upgraded nvidia-current to 260.19.29-1jolicloud3
+    - Recreated the manually generated modaliases file to identify exactly
+      which chipsets are supported by this driver in jockey.
+    - Resumed DKMS build of NVIDIA kernel module.
+    - Upgraded to upstream NVIDIA Linux driver 260.19.29
+
+ -- Adam McDaniel <adam@jolicloud.org>  Tue, 25 Jan 2011 10:31:29 -0700
+
 jolicloud-hardware-repo (1.1.4~2) robby-lucid; urgency=low
 
   * Updated psb/uswsusp to 0.8-1.3jolicloud2+2m1
