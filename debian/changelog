@@ -1,3 +1,10 @@
+jolicloud-hardware-repo (1.2.1) robby-1.2; urgency=low
+
+  * Renamed nvidia/ to nvidia-current/; added nvidia-legacy-173,96
+    packages
+
+ -- Adam McDaniel <adam@jolicloud.org>  Fri, 04 Feb 2011 15:01:03 +0100
+
 jolicloud-hardware-repo (1.2.0) robby-1.2; urgency=low
 
   * Upgraded nvidia-current to 260.19.29-1jolicloud3
