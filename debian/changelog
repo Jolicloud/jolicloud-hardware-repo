@@ -1,3 +1,19 @@
+jolicloud-hardware-repo (1.2.2) robby-1.2; urgency=low
+
+  * Upgraded psb with latest gma500-maverick mirror of Poulsbo support
+  * Upgraded jolicloud-poulsbo to 1.2.0
+    - Removed jolicloud-poulsbo's poulsbo.conf, now provided by upstream
+    - Remove the funky tweaks that jolicloud-poulsbo established, instead
+      allow upstream poulsbo-config to create them.
+  * Upgrade poulsbo-config to 0.1.2~1010um14jolicloud1
+    - Postinst's call to update-grub2 will fail when installing poulsbo-config
+      within casper's environment. Ignore update-grub2's return value and allow
+      the postinst to complete.
+  * Downgrade xserver-xorg-video-psb to 0.36.0-0ubuntu3~1004un1.1
+    - Proper support X 1.7.6.901
+
+ -- Adam McDaniel <adam@jolicloud.org>  Mon, 07 Feb 2011 19:50:45 +0100
+
 jolicloud-hardware-repo (1.2.1) robby-1.2; urgency=low
 
   * Renamed nvidia/ to nvidia-current/; added nvidia-legacy-173,96
