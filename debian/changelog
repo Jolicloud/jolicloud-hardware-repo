@@ -1,3 +1,11 @@
+jolicloud-hardware-repo (1.2.4) robby-1.2; urgency=low
+
+  * Downgraded libva1 from 1.0.1-3+0.31.1-1+sds4 to 0.31.0-2jolicloud1+sds9
+    - The 1.0.1 version was built against maverick libraries which is not
+      compatibile with robby-1.1.1 runtime environment.
+
+ -- Adam McDaniel <adam@jolicloud.org>  Thu, 10 Feb 2011 12:20:05 -0700
+
 jolicloud-hardware-repo (1.2.3) robby-1.2; urgency=low
 
   * Upgraded nvidia-current to 260.19.29-1jolicloud4
