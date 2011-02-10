@@ -1,3 +1,13 @@
+jolicloud-hardware-repo (1.2.3) robby-1.2; urgency=low
+
+  * Upgraded nvidia-current to 260.19.29-1jolicloud4
+    - Revert "Nvidia recommends linking with OSS libvdpau, not their
+      version as it will soon be depricated"
+    - Make nvidia-current depend on libvdpau.so wrapper, as required by
+      libvdpau_nvidia.so
+
+ -- Adam McDaniel <adam@jolicloud.org>  Wed, 09 Feb 2011 21:13:34 -0700
+
 jolicloud-hardware-repo (1.2.2) robby-1.2; urgency=low
 
   * Upgraded psb with latest gma500-maverick mirror of Poulsbo support
