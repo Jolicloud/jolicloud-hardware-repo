@@ -1,3 +1,12 @@
+jolicloud-hardware-repo (1.2.6) robby-1.2; urgency=low
+
+  * Upgraded poulsbo-config to 0.1.2~1010um14jolicloud3
+    - Do not prompt reboot notification, or other invasive procedures,
+      when installing under casper. These procedures will proceed when
+      installed directly under HDD at the following reboot.
+
+ -- Adam McDaniel <adam@jolicloud.org>  Mon, 14 Feb 2011 07:36:51 -0700
+
 jolicloud-hardware-repo (1.2.5) robby-1.2; urgency=low
 
   * Upgraded poulsbo-config to 0.1.2~1010um14jolicloud2
