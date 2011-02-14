@@ -1,3 +1,13 @@
+jolicloud-hardware-repo (1.2.5) robby-1.2; urgency=low
+
+  * Upgraded poulsbo-config to 0.1.2~1010um14jolicloud2
+    - If X isn't running at install time, default to a safe uvesafb resolution
+    - Remove GMA500 vaapi workaround from /etc/rc.local, instead install
+      in /etc/profile.d
+    - Notify the user that reboot is required after postinst
+
+ -- Adam McDaniel <adam@jolicloud.org>  Sun, 13 Feb 2011 20:38:40 -0700
+
 jolicloud-hardware-repo (1.2.4) robby-1.2; urgency=low
 
   * Downgraded libva1 from 1.0.1-3+0.31.1-1+sds4 to 0.31.0-2jolicloud1+sds9
