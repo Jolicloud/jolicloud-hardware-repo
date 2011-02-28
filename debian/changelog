@@ -1,3 +1,21 @@
+jolicloud-hardware-repo (1.2.7) robby-1.2; urgency=low
+
+  * Upgraded nvidia-current to 260.19.36-1jolicloud1
+    - Upgraded drivers to 260.19.36
+      - Updated the NVIDIA kernel module to ensure that all system memory
+        allocated by it for use with GPUs or within user-space components of
+        the NVIDIA driver stack is initialized to zero. A new NVIDIA kernel
+        module option, InitializeSystemMemoryAllocations, allows
+        administrators to revert to the previous behavior.
+      - Fixed a bug that caused X servers version 1.9 and higher to crash
+        when color index overlays were enabled.
+      - Fixed a bug that caused pixel value 255 to be treated as transparent
+        in color index overlays.
+    - Added GeForce 8400GS (0x10C3) & Quadro 6000 (0x06DC) support to
+      nvidia-current-modaliases
+
+ -- Adam McDaniel <adam@jolicloud.org>  Mon, 28 Feb 2011 08:30:46 -0700
+
 jolicloud-hardware-repo (1.2.6) robby-1.2; urgency=low
 
   * Upgraded poulsbo-config to 0.1.2~1010um14jolicloud3
