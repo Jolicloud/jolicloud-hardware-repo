@@ -4,6 +4,8 @@ Priority: standard
 Maintainer: Adam McDaniel <adam@jolicloud.org>
 Build-Depends: debhelper (>= 5)
 Standards-Version: 3.7.2
+Vcs-Git: git://github.com/jolicloud/jolicloud-hardware-repo.git
+Vcs-Browser: https://github.com/jolicloud/jolicloud-hardware-repo
 
 Package: jolicloud-hardware-repo
 Architecture: i386
