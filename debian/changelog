@@ -1,3 +1,10 @@
+jolicloud-hardware-repo (1.2.8) robby-1.2; urgency=low
+
+  * Upgraded poulsbo-config to 0.1.2~1010um14jolicloud4
+    - Removed "mem" grub hack as it's now provided by the kernel.
+
+ -- Adam McDaniel <adam@jolicloud.org>  Thu, 03 Mar 2011 23:43:26 -0700
+
 jolicloud-hardware-repo (1.2.7) robby-1.2; urgency=low
 
   * Upgraded nvidia-current to 260.19.36-1jolicloud1
