@@ -1,3 +1,9 @@
+jolicloud-hardware-repo (1.2.9) robby-1.2.1; urgency=low
+
+  * Imported fglrx (2:8.723.1-0ubuntu5) into repo-cache
+
+ -- Adam McDaniel <adam@jolicloud.org>  Fri, 08 Apr 2011 10:01:16 -0600
+
 jolicloud-hardware-repo (1.2.8) robby-1.2; urgency=low
 
   * Upgraded poulsbo-config to 0.1.2~1010um14jolicloud4
